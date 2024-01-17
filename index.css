@@ -35,7 +35,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 input[type=button]{
     color: white;
-    background-color: blue;
+    background-color:rgb(255, 70, 37);
     height: 30px;
     width: 120px;
 }
