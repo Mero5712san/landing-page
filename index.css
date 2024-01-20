@@ -1,58 +1,175 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
 body{
-    background-image:url(hallstatt-3609863_1280.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size:cover;
+    background-color: rgba(177, 195, 219, 0.884);
+}
+.container {
+    margin:0.2%;
     text-align: center;
-    margin-top: 100px;
+}
+.top{
+    background: url(img/Untitled.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: left;
+    padding: 50px;
+}
+.button{
+    background:transparent;
+}
+.top h5{
+    padding:50px;
+    font-size: xx-large;
 }
 
-form{
-    display:inline-flex;
-    width:1000px;
-    background-color: rgba(0, 0, 0, 0.637);
-    color: orangered;
-    padding: 10px;
-    border-radius: 100px;
+.top h1{
+    font-size:50px;
+    padding: 50px;
+    font-weight: 100;
+}
+.top p{
+    padding: 50px;
+    padding-top: 10px;
     font-size: x-large;
+
+}
+
+.top button{
+    margin: 50px;
+    font-size:large;
+    padding:10px;
+    border-radius:10px;
+    color: aliceblue;
+    background:transparent;
+}
+
+.mid{
+    text-align: center;
+}
+.mid .topic{
+    font-size: xx-large;
+    font-weight: 100;
+    color: navy;
+    padding: 15px;
+}
+.mid .para{
+    color: black;
+    padding: 30px;
+    font-size:large;
+}
+
+.img{
+    grid-template-columns: 3;
+    display:-ms-flexbox;
+    text-align: center;
+}
+
+img{
+    padding: 5px;
+    width: 30%;
+}
+.second{
+    display:flex;
+    background-color: aliceblue;
+    margin-top: 10%;
+    width:99%;
+}
+
+.topic{
+    font-size: xx-large;
+    font-weight:100;
+    padding: 20px;
+}
+.list,.listm,.list2{
+    padding: 10px;
+}
+li{
+    text-align: left;
+    list-style-type:none;
+    padding: 20px;
+}
+.list2{
+    margin-left: 10%;
+}
+.para{
+    padding: 20px;
+
 }
 
 input{
-    border-radius: 10px;
-    font-size: large;
-    margin: 10px;
-    color: white;
+    padding: 10px;
+    background-color: rgba(183, 185, 187, 0.37);
+    border-radius:10px;
+}
+
+.list2 input[type=submit]{
+    background:transparent;
+}
+.list2 input[type=submit]:hover{
+    background:linear-gradient(to left,#81d5ff, #fd63c5);
+}
+.dis{
+    background-image: url(img/bg1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    color: aliceblue;
+    margin-bottom:10%;
+}
+.dis .para{
+    padding: 10px;
+    font-size: xx-large;
+    margin: 10%;
+}
+li:hover{
+    color: red;
+}
+.dis .topic{
+    padding-top: 100px;
+    margin-right: 10%;
+    font-size: 50px;
+}
+.dis button{
+    margin-right: 15%;
+    padding: 10px;
+    border-radius: 20px;
     border: 2px solid white;
+    background: transparent;
+    color: aliceblue;
+    font-size: larger;
+    margin-bottom: 100px;
+}
+img:hover{
+    border: 2px solid rgba(71, 118, 247, 0.733);
+}
+li{
+    color: #6a8fdf;
+}
+button:hover{
+    background: linear-gradient(to left,#81d5ff, #fd63c5);
+}
+
+.mid2 .para{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+footer{
+    background-color: rgba(29, 29, 29, 0.788);
+    text-align: center;
+}
+
+footer h5{
+    font-size: large;
     font-weight: bold;
-    background-color: rgba(0, 0, 0, 0.068);
+    color: beige;
 }
 
-input[type="date"]::-webkit-inner-spin-button,
-input[type="date"]::-webkit-calendar-picker-indicator {
-    display: none;
-    -webkit-appearance: none;
-}
-
-input[type=button]{
+footer p{
+    font-style: italic;
     color: white;
-    background-color:rgba(255, 70, 37);
-    height: 30px;
-    width: 120px;
-}
-
-input[type=button]:hover{
-    background-color: green;
-    color:white;
-}
-
-span{
-    text-align: left;
-    font-size:150px;
-    color: rgb(142, 247, 233);
-}
-
-h1{
-    color: rgb(255, 81, 0);
-    width:auto;
-    font-size:50px;
 }
